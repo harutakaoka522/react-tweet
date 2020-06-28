@@ -1,5 +1,10 @@
 function App(){
-    return <div>Hello</div>
+    return (
+        <div>
+            <Tweet content="hello"/>
+            <Tweet content="react"/>
+        </div>
+    );
 }
 
 const target = document.querySelector('#app');
